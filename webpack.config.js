@@ -34,5 +34,4 @@ module.exports = {
       filename: "css/[name].[chunkhash].css",
     }),
   ],
-};const path = require("path");
-const  Html= require("html-webpack-plugin")
+};

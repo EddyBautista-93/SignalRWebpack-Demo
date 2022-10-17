@@ -19,3 +19,7 @@ D:\source\signalr\SignalRWebpack\obj\Debug\net6.0\refint\SignalRWebpack.dll
 D:\source\signalr\SignalRWebpack\obj\Debug\net6.0\SignalRWebpack.pdb
 D:\source\signalr\SignalRWebpack\obj\Debug\net6.0\SignalRWebpack.genruntimeconfig.cache
 D:\source\signalr\SignalRWebpack\obj\Debug\net6.0\ref\SignalRWebpack.dll
+D:\source\signalr\SignalRWebpack\bin\Debug\net6.0\package-lock.json
+D:\source\signalr\SignalRWebpack\bin\Debug\net6.0\package.json
+D:\source\signalr\SignalRWebpack\bin\Debug\net6.0\src\tsconfig.json
+D:\source\signalr\SignalRWebpack\bin\Debug\net6.0\SignalRWebpack.staticwebassets.runtime.json

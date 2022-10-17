@@ -1,13 +1,22 @@
+// <snippet_HubsNamespace>
+// using SignalRWebpack.Hubs;
+// </snippet_HubsNamespace>
 
+// <snippet_AddSignalR>
 var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
-builder.Services.AddSignalR();
 
-// Allows the server to locate and serve the index.html file.
+builder.Services.AddSignalR();
+// </snippet_AddSignalR>
+
+// <snippet_FilesMiddleware>
+var app = builder.Build();
+
 app.UseDefaultFiles();
 app.UseStaticFiles();
-app.MapHub<ChatHub>("/Hubs");
+// </snippet_FilesMiddleware>
 
-app.MapGet("/", () => "Hello World!");
+// <snippet_MapHub>
+app.MapHub<ChatHub>("/hub");
+// </snippet_MapHub>
 
 app.Run();
